@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,400;0,500;1,400&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading {
+  font-family: Roboto;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.grid-child {
+  border: 1.5px solid whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.grid-child:hover {
+  background-color: whitesmoke;
+  color: #212121;
+}
+
+.grid-child h3 {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+.grid-child p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.text-area {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Roboto;
+}
+
+.action-button {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.translation-container {
+  display: grid;
+  place-items: center;
+}
